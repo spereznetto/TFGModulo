@@ -1,0 +1,9 @@
+ EFIP 2 Faltantes
+
+gestionalertas
+
+  'url' => 'Yii::app()->createUrl("mensajehistorico/verposicionesalerta", array("idalerta"=>$data["idAlerta"]))',
+    'url' => 'Yii::app()->createUrl("alerta/enviosms", array("idalerta"=>$data["idMensaje"]))',
+      'url' => 'Yii::app()->createUrl("alerta/compartirubicacion", array("idalerta"=>$data["idAlerta"]))',
+      'url' => 'Yii::app()->createUrl("informes/descargarposicion", array("movil"=>$data["idMensaje"]))',
+    
